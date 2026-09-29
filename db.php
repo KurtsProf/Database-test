@@ -7,7 +7,7 @@ $DB_USER = 'root';
 $DB_PASS = '';
 
 // Login credentials. Only the password hash is stored, never the plain
-// password. Generated with password_hash('@Margo8267', PASSWORD_DEFAULT).
+// password. Generate a new hash with password_hash('<password>', PASSWORD_DEFAULT).
 const AUTH_EMAIL = 'jerrysclocks@yahoo.com';
 const AUTH_PASSWORD_HASH = '$2y$10$qyy2o0JcPNwO4qkJ7l7xQePfYjepViyOe20bas5EOYmkz4Nehs8f2';
 
